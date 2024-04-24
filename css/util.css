@@ -1,0 +1,332 @@
+.list-items-nav {
+    display: inline-block;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+#section-one {
+    max-height: 100%;
+    background: #FDF8EE;
+
+
+}
+
+.left-content {
+    display: inline-block;
+    margin-top: 170px;
+}
+
+
+.left-content-input {
+    margin-top: 28px;
+}
+
+.section-one-content {
+    display: flex;
+    justify-content: center;
+}
+
+.services {
+    position: relative;
+    display: flex;
+    background: purple;
+    width: 61em;
+    border-radius: 5px;
+    margin: 1px auto;
+    margin-top: 94px;
+    justify-content: space-between;
+    padding: 68px 0;
+
+}
+
+.s-img-1 {
+    width: 65px;
+    height: 55px;
+    border-radius: 10px;
+    position: relative;
+    top: 9px;
+    left: 19px;
+}
+
+.s-h3-1 {
+    position: relative;
+    left: -718px;
+    top: 9px;
+    font-size: 1em;
+    color: white;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.s-p-1 {
+    position: absolute;
+    font-size: 0.6em;
+    width: 205px;
+    left: 91px;
+    top: 104px;
+    color: grey;
+    font-family: "Roboto", sans-serif;
+}
+
+.s-img-2 {
+    width: 65px;
+    height: 55px;
+    border-radius: 10px;
+    top: 77px;
+    left: 338px;
+    position: absolute;
+}
+
+.s-h3-2 {
+    font-size: 1em;
+    color: white;
+    font-weight: 600;
+    top: 78px;
+    left: 415px;
+    position: absolute;
+    font-family: "Roboto", sans-serif;
+}
+
+.s-p-2 {
+    position: absolute;
+    font-size: 0.6em;
+    width: 205px;
+    left: 415px;
+    top: 104px;
+    color: grey;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.s-img-3{
+    width: 65px;
+    height: 55px;
+    border-radius: 10px;
+    top: 78px;
+    left: 660px;
+    position: absolute;
+}
+
+.s-h3-3 {
+    font-size: 1em;
+    color: white;
+    font-weight: 600;
+    top: 77px;
+    left: 736px;
+    position: absolute;
+    font-family: "Roboto", sans-serif;
+}
+
+.s-p-3 {
+    position: absolute;
+    font-size: 0.6em;
+    width: 205px;
+    left: 737px;
+    top: 104px;
+    color: grey;
+    font-family: "Roboto", sans-serif;
+}
+
+
+#section-two{
+    max-height: 100%;
+    background: white
+}
+
+.section-task{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 41px;
+}
+
+.task-bulb{
+    height: 87px;
+}
+
+.task-content{
+    text-align: center;
+
+}
+
+
+
+.task-arrow{
+    height: 87px;
+}
+
+.tracks{
+    display: flex;
+    justify-content: center;
+}
+
+.tracks-pic{
+    width: 344px;
+}
+
+
+#section-three{
+    max-height: 100%;
+    background: #FDF8EE;
+    margin-top: 77px;
+}
+
+.premium-experience{
+    display: flex;
+    margin-left: -223px;
+    justify-content: center;
+}
+
+.section3-exp{
+    width: 281px;
+    margin-top: 72px;
+}
+
+.exp-content{
+    margin-top: 110px;
+    margin-left: 151px;
+    font-size: 1.5em;
+}
+
+.exp-pics{
+    width: 291px;
+    display: block;
+    margin-top: 32px;
+}
+
+.exp-pics-div{
+    position:relative;
+}
+
+.exp-child{
+width: 20px;
+}
+
+.pos-child-1{
+    position: absolute;
+    top: 8px;
+    left: 10px;
+}
+
+.pos-child-2{
+    position: absolute;
+    top: 83px;
+    left: 10px;
+}
+
+#section-four{
+    margin-top: 77px;
+    max-height: 100%;
+  
+}
+
+.feedback{
+text-align: center;
+
+}
+
+.feedback-flex{
+display: flex;
+justify-content: center;
+}
+
+.feedback-img{
+    width: 1000px;
+}
+
+#section-five{
+    margin-top: -75px;
+    max-height: 100%;
+  
+}
+
+.section-task1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.secondtrack-dots{
+    width: 90px;
+    height: 11px;
+    margin-top: 48px;
+    margin-left: -10px;
+}
+
+.secondtrack-saturn{
+    height: 34px;
+}
+
+.track2{
+    margin-top: 33px;
+    margin-bottom: 39px;
+}
+
+
+.subscribe{
+    display: flex;
+    justify-content: center;
+}
+
+#section-six{
+    margin-top: 90px;
+    max-height: 100%;
+}
+
+.footer{
+    max-height: 100%;
+    background: #FDF8EE;
+    margin-top: 84px;
+}
+
+.footer-container{
+display: grid;
+width: 96%;
+margin: 0px auto;
+grid-template-columns:1.3fr repeat(4,1fr);
+grid-template-rows: repeat(5,1fr);
+height: 241px;
+}
+
+.grid-items{
+    text-align: left;
+    color: grey;
+    font-size: 0.8em;
+}
+
+.item1{
+    width: 135px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+  
+}
+
+.item2, .item3, .item4, .item5{
+    font-weight: bold;
+    margin-top: 30px;
+    color: black;
+    font-size: 1em;
+}
+
+.item6{
+    grid-row:2 / 6 ;
+    line-height: 23px;
+    width: 244px;
+}
+
+
+.footer hr{
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+.footer h5{
+    text-align: center;
+    color: grey;
+    margin-bottom: 10px;
+}
