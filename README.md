@@ -1,2 +1,2 @@
 # Landing-page
-Landing page using html5 css5
+Landing page using HTML5 CSS3
